@@ -1,0 +1,10 @@
+name: First Workflow v2
+on: workflow_dispatch
+jobs:
+    two_coomands:
+      runs-on: ubuntu-latest
+      steps:
+        - name: Two Commands
+          run: |
+            echo "First Command"
+            echo "Second Command"
